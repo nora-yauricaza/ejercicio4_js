@@ -1,4 +1,4 @@
-  var tiempo = prompt("Ingresa tiempo");
-  var costoMinuto  = prompt("Ingresa costoMinuto ");
+  var tiempo = prompt("Ingresa duracion de llamada");
+  var costoMinuto  = prompt("Ingresa costo por minuto ");
   var suma = parseInt(tiempo) * parseInt(costoMinuto );
   window.alert(suma);
